@@ -14,7 +14,7 @@ flag format: d4rk{lat_long_speed_height}c0de
 ### Explanation
 Wee see that an image is given, It's of a plane `(airline- indigo)` and it was the `aircraft - VT-IFP` of type `A320`.
 
-Now by instinct i put a command `exiftool <file name>`, by this command i got some more information about the image:
+Now in order to find information of the image i used exiftool command `exiftool <file name>`, by this command i got some more information about the image:
 ```
 > exiftool catch\ me\ if\ you\ can.jpg 
 ExifTool Version Number         : 12.40
@@ -89,11 +89,11 @@ So the i have to find it on date 3 september 2023 at 6:56
 
 I searched this information on web browser and this [website](https://www.flightera.net/en/planes/VT-IFP) appeared:
 ![](hop/img/1search.png)
-further in the website i found that the code name was `IGO839 ` of the flight on 3 september 2023
+further in the website i found that it's code name was `IGO839 ` of the flight on 3 september 2023
 ![](hop/img/fsearch.png)
 
 
-now I searched `IndiGo 6E839 (IGO839) rout info at 3 sept 2023` on web browser the this [website](https://www.flightaware.com/live/flight/IGO839) appered but it was showing the information about the flight on 21 oct 2023 so on further digging website i found the info about the asked flight:
+now I searched `IndiGo 6E839 (IGO839) rout info at 3 sept 2023` on web browser then this [website](https://www.flightaware.com/live/flight/IGO839) appered but it was showing the information about the flight on 21 oct 2023 so on further digging website i found the info about the asked flight:
 ![](hop/img/found.png)
 the
 ![](hop/img/final.png)
